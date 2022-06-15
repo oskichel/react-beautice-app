@@ -1,0 +1,81 @@
+.Header {
+    height: 63px;
+    margin: 41px 150px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.Logo {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.Ellipse {
+    width: 63px;
+    height: 63px;
+    border-radius: 50%;
+    background: #FF64AE;
+}
+
+.Name {
+    margin-left: 18px;
+    font-size: 24px;
+    line-height: 63px;
+    color: #091156;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.Header-menu {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.Header-page {
+    margin: 0 22px;
+    line-height: 63px;
+    font-size: 16px;
+    color: #8B8B8B;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.Header-page:hover {
+    color: #FF64AE;
+}
+
+@media screen and (max-width: 785px) and (min-width: 375px) {
+    body {
+        max-width: 785px;
+        min-width: 375px;
+    }
+
+    .Header {
+        max-width: 785px;
+        min-width: 375px;
+        height: 43px;
+        margin: 31px 30px;
+    }
+
+    .Ellipse {
+        width: 23px;
+        height: 23px;
+    }
+
+    .Name {
+        margin-left: 14px;
+        font-size: 16px;
+        line-height: 23px;
+    }
+
+    .Header-page {
+        margin: 0 12px;
+        line-height: 23px;
+        font-size: 12px;
+    }
+}

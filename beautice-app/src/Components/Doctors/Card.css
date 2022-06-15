@@ -1,0 +1,17 @@
+.Card-title {
+    text-decoration: none;
+    color: #FF64AE;
+}
+
+.Card-title:hover {
+    color: #091156;
+}
+
+.Card-image {
+    height: 120px;
+    width: 120px;
+    overflow: hidden;
+    border-radius: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}

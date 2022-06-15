@@ -1,0 +1,12 @@
+.DoctorList {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.DoctorList-item {
+    font-family: 'Poppins', sans-serif;
+    width: 300px;
+    height: 300px;
+    margin: 25px;
+}

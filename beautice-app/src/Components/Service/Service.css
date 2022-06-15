@@ -1,0 +1,65 @@
+.Service {
+    margin: 158px auto;
+}
+
+.Service-list {
+    margin: 65px auto;
+}
+
+.Service-module {
+    width: 500px;
+    height: 100px;
+    margin: 25px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 1px solid #E2E2E2;
+    border-radius: 25px;
+}
+
+.Service-module:hover {
+    border: 1px solid #9BA2E0;
+}
+
+.Service-item {
+    font-size: 18px;
+    font-weight: bolder;
+    color: #091156;
+    line-height: 98px;
+    padding-left: 60px;
+    text-align: left;
+}
+
+.Service-price {
+    font-size: 16px;
+    font-weight: bolder;
+    color: #FF64AE;
+    line-height: 98px;
+    padding-right: 60px;
+    text-align: right;
+}
+
+.Service-title {
+    width: 500px;
+    height: 60px;
+    margin: 25px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: none;
+}
+
+@media screen and (max-width: 785px) and (min-width: 375px) {
+    body {
+        max-width: 785px;
+        min-width: 375px;
+    }
+
+    .Service-module {
+        width: 375px;
+        height: 100px;
+    }
+
+    .Service-title {
+        width: 375px;
+        height: 60px;
+    }
+}

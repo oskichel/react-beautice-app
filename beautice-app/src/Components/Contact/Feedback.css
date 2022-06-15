@@ -1,0 +1,89 @@
+.Form-submit {
+    width: 500px;
+    height: 652px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.Form-submit-area {
+    margin-bottom: 38px;
+}
+
+.Form-submit-input {
+    width: 520px;
+    height: 62px;
+    border-radius: 15px;
+    border: 1px solid #D9DDFE;
+    padding-left: 24px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.Form-submit-input:active {
+    border: 1px solid #FF64AE;
+}
+
+.Form-submit-textarea {
+    width: 520px;
+    height: 240px;
+    border-radius: 15px;
+    border: 1px solid #D9DDFE;
+    padding-left: 24px;
+    padding-top: 25px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.Form-submit-button {
+    width: 248px;
+    height: 58px;
+    border: none;
+    border-radius: 50px;
+    background-color: #FF64AE;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.Form-submit-button:active {
+    opacity: 0.7;
+}
+
+.Form-submit-error {
+    width: 520px;
+    height: 38px;
+    text-align: right;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    color: #FF64AE;
+    position: absolute;
+}
+
+@media screen and (max-width: 785px) and (min-width: 375px) {
+    body {
+        max-width: 785px;
+        min-width: 375px;
+    }
+
+    .Form-submit {
+        width: 375px;
+        height: 652px;
+        margin: 0 auto;
+    }
+
+    .Form-submit-input {
+        width: 375px;
+        height: 62px;
+    }
+
+    .Form-submit-textarea {
+        width: 375px;
+        height: 240px;
+        border-radius: 15px;
+
+    }
+
+    .Form-submit-error {
+        width: 375px;
+        height: 38px;
+    }
+}

@@ -1,0 +1,130 @@
+.Module-first {
+    margin: 158px 150px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.first {
+    text-align: left;
+}
+
+.second {
+    text-align: center;
+}
+
+.Module-img {
+    margin-left: auto;
+    margin-right: 50px;
+    height: 303px;
+}
+
+.Module-info {
+    margin-left: 50px;
+    margin-right: auto;
+    width: 500px;
+}
+
+.Module-subtitle {
+    font-size: 16px;
+    line-height: 125%;
+    color: #FF64AE;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.Module-title {
+    font-size: 36px;
+    /*text-align: left;*/
+    line-height: 125%;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    color: #091156;
+}
+
+.Module-text {
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    color: #8B8B8B;
+}
+
+.Module-third {
+    margin-top: 65px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.Module-item {
+    width: 261px;
+    height: 303px;
+    border: 1px solid #E2E2E2;
+    border-radius: 25px;
+    margin: 20px 0;
+}
+
+.Module-item:hover {
+    border: 1px solid #9BA2E0;
+}
+
+.Module-item-icon {
+    margin: 31px auto;
+    height: 64px;
+}
+
+.Module-item-subtitle {
+    font-size: 18px;
+    line-height: 125%;
+    color: #091156;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.Module-item-text {
+    font-size: 14px;
+    line-height: 21px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    color: #8B8B8B;
+}
+
+@media screen and (max-width: 785px) and (min-width: 375px) {
+    body {
+        max-width: 785px;
+        min-width: 375px;
+    }
+
+    .Module-info {
+        width: 375px;
+        box-sizing: border-box;
+    }
+
+    .Module-first {
+        margin: 0 auto;
+        width: 375px;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+    }
+
+    .Module-img {
+        margin-left: auto;
+        margin-right: auto;
+        max-height: 303px;
+        box-sizing: border-box;
+    }
+
+    .Module-second {
+        max-width: 785px;
+        min-width: 375px;
+    }
+}
