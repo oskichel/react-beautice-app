@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/react-beautice-app/static/css/main.f4896314.css",
+    "main.js": "/react-beautice-app/static/js/main.06b0c85c.js",
+    "static/js/787.f6dad438.chunk.js": "/react-beautice-app/static/js/787.f6dad438.chunk.js",
+    "static/media/img.png": "/react-beautice-app/static/media/img.8df3a233bab1677a9d40.png",
+    "static/media/contact.png": "/react-beautice-app/static/media/contact.73476a5e17d53e365e80.png",
+    "static/media/icon1.png": "/react-beautice-app/static/media/icon1.84ce5c29ab0f9d96a2fa.png",
+    "static/media/icon2.png": "/react-beautice-app/static/media/icon2.5151361be44c714ea5ef.png",
+    "static/media/icon3.png": "/react-beautice-app/static/media/icon3.14b37aea2e44dfe8fd9b.png",
+    "index.html": "/react-beautice-app/index.html",
+    "main.f4896314.css.map": "/react-beautice-app/static/css/main.f4896314.css.map",
+    "main.06b0c85c.js.map": "/react-beautice-app/static/js/main.06b0c85c.js.map",
+    "787.f6dad438.chunk.js.map": "/react-beautice-app/static/js/787.f6dad438.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f4896314.css",
+    "static/js/main.06b0c85c.js"
+  ]
+}
